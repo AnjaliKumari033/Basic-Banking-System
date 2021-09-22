@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #fff!important;
+}
+#sp{
+    color: #007DFE;
+}
+.navbar-brand{
+    font-family: 'Roboto';
+    font-size: 1.40rem;
+    color: #039be5!important;
+    
+    
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+
+}
+.nav-right{
+    position: fixed;
+    width: 100%;
+    text-align: right;
+}
+/* navbar css ends here  */
+
+
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(78, 153, 223)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(67, 83, 230)!important;
+}
+.modal-dialog{
+    margin-top: 50px;
+}
+
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 2% 15%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.fb {
+    margin: 20px 10px;
+}
+.fb1:hover {
+    color: #2867b2;
+    cursor: pointer;
+}
+.fb2:hover {
+    color: #4267B2;
+    cursor: pointer;
+}
+.fb3:hover {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+.fb4:hover {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fb5:hover {
+    cursor: pointer;
+    color: #211F1F;
+}
